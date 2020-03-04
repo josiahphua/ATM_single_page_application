@@ -19,10 +19,15 @@ Mr. Ebere has decided to visit Al Rajhi Bank ATM to witdrawal some money. He sho
 1. Saad comes and asks for 300 SAR but now Ebere should have 100 SAR left and the ATM should show `insufficient balance`
 
 ### Screenshots
+Login Screen
 ![](img/1.png)
+Dashboard Screen
 ![](img/2.png)
+Withdrawal Screen
 ![](img/3.png)
+Deposit Screen
 ![](img/4.png)
+View Balance Screen
 ![](img/5.png)
 
 ### Helpers
