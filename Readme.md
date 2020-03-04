@@ -18,7 +18,15 @@ Mr. Ebere has decided to visit Al Rajhi Bank ATM to witdrawal some money. He sho
 1. Yassir comes and asks for 400 SAR to go to corniche on Thursday to eat the most delicious pasta in the world. So Ebere should withdraw 400 SAR.
 1. Saad comes and asks for 300 SAR but now Ebere should have 100 SAR left and the ATM should show `insufficient balance`
 
+### Screenshots
+
 
 ### Helpers
 #### JQuery
-1. hide()
+1. `$("selector").hide()`
+1. `$("selector").show()`
+
+
+#### JavaScript
+1. `document.querySelector("selector").style.display = "none" //hide`
+1. `document.querySelector("selector").style.display = "block" //show`
