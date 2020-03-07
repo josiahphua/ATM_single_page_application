@@ -41,3 +41,4 @@ View Balance Screen
 #### JavaScript
 1. `document.querySelector("selector").style.display = "none" //hide`
 1. `document.querySelector("selector").style.display = "block" //show`
+1. `parseInt(string, 10)`
