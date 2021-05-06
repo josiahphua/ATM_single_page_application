@@ -1,0 +1,142 @@
+section {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section .left {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+}
+section .left .input {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+section .left .input .buttons {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  grid-template: repeat(5, 1fr)/repeat(5, 1fr);
+  gap: 5px;
+  justify-content: center;
+}
+section .left .input .buttons [class^=nums-] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  background: white;
+  border: 1px solid gray;
+}
+section .left .input .buttons [class^=nums-] p {
+  margin: 0;
+}
+section .left .input .buttons [class^=option-] {
+  background: white;
+  border: 1px solid gray;
+}
+section .left .input .buttons .display {
+  grid-column: 1/4;
+  background: white;
+  border: 1px solid gray;
+}
+section .left .input .buttons .option-b1 {
+  grid-column: 4/6;
+  background: none;
+  border: none;
+}
+section .left .input .buttons .nums-1 {
+  grid-column: 1/2;
+}
+section .left .input .buttons .nums-2 {
+  grid-column: 2/3;
+}
+section .left .input .buttons .nums-3 {
+  grid-column: 3/4;
+}
+section .left .input .buttons .option-red {
+  grid-column: 4/6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+section .left .input .buttons .option-red div {
+  background: red;
+  width: 80%;
+  height: 5px;
+  margin-bottom: 5px;
+}
+section .left .input .buttons .nums-4 {
+  grid-column: 1/2;
+}
+section .left .input .buttons .nums-5 {
+  grid-column: 2/3;
+}
+section .left .input .buttons .nums-6 {
+  grid-column: 3/4;
+}
+section .left .input .buttons .option-orange {
+  grid-column: 4/6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+section .left .input .buttons .option-orange div {
+  background: orange;
+  width: 80%;
+  height: 5px;
+  margin-bottom: 5px;
+}
+section .left .input .buttons .nums-7 {
+  grid-column: 1/2;
+}
+section .left .input .buttons .nums-8 {
+  grid-column: 2/3;
+}
+section .left .input .buttons .nums-9 {
+  grid-column: 3/4;
+}
+section .left .input .buttons .option-green {
+  grid-column: 4/6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+section .left .input .buttons .option-green div {
+  background: green;
+  width: 80%;
+  height: 5px;
+  margin-bottom: 5px;
+}
+section .left .input .buttons .nums-b1 {
+  grid-column: 1/2;
+}
+section .left .input .buttons .nums-0 {
+  grid-column: 2/3;
+}
+section .left .input .buttons .nums-b2 {
+  grid-column: 3/4;
+}
+section .left .input .buttons .option-b2 {
+  grid-column: 4/6;
+  background: none;
+  border: none;
+}
+section .right {
+  display: flex;
+  align-items: center;
+  background: #0b3790;
+}
+section .right .logo {
+  display: flex;
+  justify-content: center;
+}
+section .right .logo img {
+  width: 40%;
+}
+
+/*# sourceMappingURL=login.css.map */

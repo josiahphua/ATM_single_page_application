@@ -1,0 +1,156 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#wholeThingContainer {
+  display: none;
+}
+
+.login-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 500px;
+}
+
+.logo {
+  background-color: #1b4297;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.numpad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  background-color: transparent;
+  padding: 4rem;
+  gap: 5px;
+}
+.numpad .thief {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color: red;
+  border: none;
+}
+.numpad .play-bar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color: none;
+  border: 1px solid black;
+}
+.numpad .play-bar .pinNum {
+  width: 1rem;
+}
+.numpad .empty-box2spaces {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: transparent;
+  padding: 4rem;
+  gap: 5px;
+  height: 50px;
+}
+.dashboard .empty-box3spaces {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.dashboard .clock {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.blue-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+}
+.blue-cont .greeting {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.blue-cont .empty-box3spaces {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.blue-cont .showSar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.blue-cont .balance-dash {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.blue-cont .withdraw-dash {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.blue-cont .deposit-dash {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.withdrawal-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 500px;
+}
+.withdrawal-cont .keypad {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.withdrawal-cont .display-box {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.deposit-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 500px;
+}
+.deposit-cont .keypad {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.deposit-cont .display-box {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
